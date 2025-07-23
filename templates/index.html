@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/static/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="title">
+          <h2 id="top_head">Frolic Farms & Banquets</h2>
+          <img src="/static/Top_logo.png" id="Top_logo" alt="logo">
+        </div>
+      
+        <nav class="nav-links">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#reviews">Reviews</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#contact">Contact Us</a>
+        </nav>
+      </header>
+      <section class="hero" id="home">
+        <div class="hero-overlay">
+          <h1>Your Perfect Day</h1>
+          <p>Create unforgettable memories at Frolic Farms, where rustic charm meets elegant sophistication</p>
+          <div class="hero-buttons">
+            <a href="#contact" class="btn book-btn">Book Your Tour</a>
+            <a href="#gallery" class="btn gallery-btn">View Gallery</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="about">
+        <div class="about-container">
+          <div class="about-text">
+            <h2>About Frohlic Farms</h2>
+            <p>
+              Nestled in the heart of the countryside, Frohlic Farms has been creating magical wedding experiences for over two decades. Our 200-acre property combines rustic charm with modern amenities.
+            </p>
+      
+            <div class="about-stats">
+              <div class="stat">
+                <img src="/static/people icon.svg" alt="people">
+                <p><strong>1000+ Weddings</strong><br>Celebrated</p>
+              </div>
+              <div class="stat">
+                <img src="/static/leaf icon.svg" alt="leaf">
+                <p><strong>200 Acres</strong><br>Of Natural Beauty</p>
+              </div>
+            </div>
+          </div>
+      
+          <div class="about-image">
+            <img src="/static/Aboutph.png" alt="Frohlic Farms Entrance">
+          </div>
+        </div>
+      </section>
+
+      <section class="google_reviews" id="reviews">
+        <div>
+            <script src="https://static.elfsight.com/platform/platform.js" async></script>
+            <div class="elfsight-app-1becd472-0e11-48bd-91e6-718718f0bfc5" data-elfsight-app-lazy></div>
+        </div>
+      </section>
+
+      <section id="gallery">
+        <h2>Wedding Gallery</h2>
+        <p>Glimpses of magical moments created at Frolic Farms</p>
+      
+        <div class="gallery-container">
+          <img src="/static/G-1.webp" alt="picture-1" class="main-img" />
+      
+          <div class="side-images">
+            <img src="/static/G-2.webp" alt="picture-2" class="gallery-img" />
+            <img src="/static/G-3.webp" alt="picture-3" class="gallery-img" />
+            <img src="/static/G-4.webp" alt="picture-4" class="gallery-img" />
+            <img src="/static/G-5.webp" alt="picture-5" class="gallery-img" />
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <div id="contact-header">
+          <h2>Contact Us</h2>
+          <p>Let's start planning your perfect wedding day</p>
+        </div>
+      
+        <div class="contact-content">
+      
+          <form class="form" action="/submit_contact" method="post">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="fname">
+      
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lname">
+      
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email">
+      
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" name="phone">
+      
+            <label for="wedding">Wedding Date</label>
+            <input type="date" id="wedding" name="wedding">
+      
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5"></textarea>
+      
+            <button type="submit">Send Message</button>
+          </form>
+      
+          <div class="contact-right">
+      
+            <div id="getintouch">
+              <h3>Get in Touch</h3>
+              <p><strong>Address</strong><br>Sector-73 near Prateek Laurel Society, Sector 73, Noida, Uttar Pradesh 201301</p>
+              <p><strong>Phone</strong><br>+91 96437 17072</p>
+              <p><strong>Email</strong><br>frolicfarms@gmail.com</p>
+            </div>
+      
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.4144594964537!2d77.38983507740824!3d28.587340686128076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cef003eff8eaf%3A0x560ab27622e399ba!2sFrolic%20Farms%20%26%20Banquets!5e0!3m2!1sen!2sin!4v1752770436689!5m2!1sen!2sin"
+              loading="lazy"
+              allowfullscreen
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+      
+          </div>
+        </div>
+      </section>
+
+      <section id="last">
+        <footer>
+          <div id="ft1">
+            <img src="/static/Top_logo.png" id="logo" alt="logo"/>
+            <h2>Frolic Farms &</h2>
+            <h2>Banquets</h2>
+            <p>Creating unforgettable wedding memories in the heart of the countryside.</p>
+          </div>
+      
+          <div id="ft2">
+            <h3>Quick Links</h3>
+            <nav class="nav-links">
+              <a href="#">Home</a>
+              <a href="#">About</a>
+              <a href="#">Reviews</a>
+              <a href="#">Gallery</a>
+              <a href="#">Contact Us</a>
+            </nav>
+          </div>
+      
+          <div id="ft3">
+            <h3>Contact</h3>
+            <p><strong>Address</strong><br>Sector-73 near Prateek Laurel Society, Sector 73, Noida, Uttar Pradesh 201301</p>
+            <p><strong>Phone</strong><br>+91 96437 17072</p>
+            <p><strong>Email</strong><br>frolicfarms@gmail.com</p>
+          </div>
+      
+          <div class="social">
+            <h3>Follow Us</h3>
+            <a href="https://www.instagram.com/frolicfarmbanquets/">
+              <img src="/static/insta_icon.svg" alt="Instagram" />
+            </a>
+          </div>
+        </footer>
+      </section>
+      
+      
+
+      
+      
+
+</body>
+
+</html>

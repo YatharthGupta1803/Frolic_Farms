@@ -1,0 +1,603 @@
+
+html{
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color:#0E0C08 ;
+}
+  
+.header {
+    background: #000001;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    padding: 16px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+.title {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  
+#top_head {
+    color: #D79F3D;
+    font-family: "Playfair Display SC", serif;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+  }
+  
+#Top_logo {
+    width: 62px;
+    height: 62px;
+    object-fit: contain;
+    
+  }
+  
+.nav-links {
+    display: flex;
+    gap: 24px;
+  }
+  
+.nav-links a {
+    color: #D79F3D;
+    font-size: 16px;
+    font-family: "Cormorant", serif;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .nav-links a:hover {
+    color: #f0c676;
+  }
+#landing_ph{
+    width: 1436px;
+    height: 1077px;
+    flex-shrink: 0;
+  }
+
+
+
+
+
+.hero {
+    position: relative;
+    background-image: url("/static/Landing\ Photo.png");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.hero-overlay {
+    text-align: center;
+    max-width: 800px;
+    padding: 0 20px;
+    color: white;
+}
+  
+.hero-overlay h1 {
+  font-size: 72px;
+    font-family: "Playfair Display", serif;
+    font-weight: 800;
+    line-height: 1.1;
+    margin-bottom: 20px;
+  }
+  
+.hero-overlay p {
+  font-size: 24px;
+    font-family: "Cormorant", serif;
+    font-weight: 700;
+    line-height: 1.4;
+    margin-bottom: 40px;
+  }
+  
+.hero-buttons {
+  display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+.btn {
+    text-decoration: none;
+    padding: 14px 32px;
+    font-size: 16px;
+    border-radius: 8px;
+    font-family: "Cormorant", serif;
+    transition: 0.3s;
+  }
+  
+.book-btn {
+    background-color: #D79F3D;
+    color: white;
+    border: none;
+  }
+  
+.book-btn:hover {
+    background-color: #b8822c;
+  }
+  
+.gallery-btn {
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+  }
+  
+.gallery-btn:hover {
+    background: rgba(255, 255, 255, 0.1);
+  }
+
+
+
+
+  
+  #about {
+    background-color: #0E0C08;
+    padding: 60px 80px;
+    color: white;
+  }
+  
+  .about-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  
+  .about-text {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .about-text h2 {
+    color: #D79F3D;
+    font-family: "Playfair Display", serif;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .about-text p {
+    font-family: "Cormorant", serif;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 40px;
+  }
+  
+  .about-stats {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  
+  .stat {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .stat img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .stat p {
+    font-family: "Cormorant", serif;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  
+  .about-image {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .about-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+
+
+  #gallery {
+    padding: 4rem 2rem;
+    background-color: #0d0d0d;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .gallery-container {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+  }
+  
+  .main-img {
+    width: 600px;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .side-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+  
+  .gallery-img {
+    width: 296px;
+    height: 192px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+
+
+  body {
+    background-color: #0e0c0a;
+    font-family: 'Georgia', serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #contact {
+    padding: 60px 5%;
+  }
+  
+  #contact-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  #contact-header h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  #contact-header p {
+    font-size: 1.1rem;
+    color: #ccc;
+  }
+  
+  /* Grid layout for form + right side */
+  .contact-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  /* LEFT: Form Styling */
+  form.form {
+    flex: 1 1 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  form.form label {
+    font-weight: 500;
+    text-align: left;
+  }
+  
+  form.form input,
+  form.form textarea {
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+  }
+  
+  form.form input[type="date"] {
+    cursor: pointer;
+  }
+  
+  form.form button {
+    background-color: #dda640;
+    color: white;
+    font-size: 1.1rem;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  form.form button:hover {
+    background-color: #c7922e;
+  }
+  
+  /* RIGHT: Map + Contact Info */
+  .contact-right {
+    flex: 1 1 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  /* Contact Info Box */
+  #getintouch {
+    background-color: #fce9c6;
+    color: #1a1a1a;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  #getintouch h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Map Embed Styling */
+  .contact-right iframe {
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    border: none;
+  }
+  
+  #last {
+    background-color: #0e0c0a;
+    color: #ccc;
+    padding: 60px 5% 20px;
+    font-family: 'Georgia', serif;
+  }
+  
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2rem;
+    border-top: 1px solid #222;
+  }
+  
+  /* LEFT: Logo & Tagline */
+  #ft1 {
+    flex: 1 1 250px;
+  }
+  
+  #ft1 img {
+    width: 100px;
+    margin-bottom: 10px;
+  }
+  
+  #ft1 h2 {
+    font-size: 1.8rem;
+    color: #dda640;
+    margin: 0;
+  }
+  
+  #ft1 p {
+    margin-top: 10px;
+    line-height: 1.6;
+    color: #999;
+  }
+  
+  /* CENTER: Quick Links */
+  #ft2 {
+    flex: 1 1 200px;
+  }
+  
+  #ft2 h3 {
+    font-size: 1.2rem;
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  
+  #ft2 .nav-links {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  
+  #ft2 .nav-links a {
+    text-decoration: none;
+    color: #ccc;
+    font-size: 0.95rem;
+    transition: color 0.2s ease;
+  }
+  
+  #ft2 .nav-links a:hover {
+    color: #dda640;
+  }
+  
+  /* RIGHT: Contact Info */
+  #ft3 {
+    flex: 1 1 250px;
+  }
+  
+  #ft3 h3 {
+    font-size: 1.2rem;
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  
+  #ft3 p {
+    margin: 8px 0;
+    font-size: 0.95rem;
+    color: #ccc;
+  }
+  
+  /* Social Icons */
+  .social {
+    flex: 1 1 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  
+  .social a img {
+    width: 26px;
+    height: 26px;
+    filter: grayscale(1) brightness(1.2);
+    transition: transform 0.2s ease;
+  }
+  
+  .social a img:hover {
+    transform: scale(1.1);
+    filter: brightness(1.4);
+  }
+  
+
+  footer::after {
+    content: "© 2024 Frolic Farms. All rights reserved.";
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 40px;
+    color: #666;
+  }
+
+
+
+@media screen and (max-width: 1024px) {
+  .hero-overlay h1 {
+    font-size: 48px;
+  }
+
+  .hero-overlay p {
+    font-size: 20px;
+  }
+
+  .main-img {
+    width: 100%;
+  }
+
+  .gallery-img {
+    width: 100%;
+  }
+
+  .about-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-image,
+  .about-text {
+    width: 100%;
+  }
+
+  .contact-content {
+    flex-direction: column;
+  }
+
+  footer {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  #ft1, #ft2, #ft3, .social {
+    width: 100%;
+    align-items: center;
+  }
+
+  #ft2 .nav-links {
+    align-items: center;
+  }
+}
+
+/* Small Devices (Mobile Phones) */
+@media screen and (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    padding: 12px 20px;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .hero-overlay h1 {
+    font-size: 36px;
+  }
+
+  .hero-overlay p {
+    font-size: 18px;
+  }
+
+  .btn {
+    padding: 12px 24px;
+    font-size: 14px;
+  }
+
+  .about-text h2 {
+    font-size: 28px;
+  }
+
+  .about-text p {
+    font-size: 16px;
+  }
+
+  .stat {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .gallery-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .side-images {
+    grid-template-columns: 1fr;
+  }
+
+  form.form {
+    width: 100%;
+  }
+
+  .contact-right iframe {
+    height: 200px;
+  }
+}
+
+/* Extra Small Devices */
+@media screen and (max-width: 480px) {
+  .hero-overlay h1 {
+    font-size: 28px;
+  }
+
+  .hero-overlay p {
+    font-size: 16px;
+  }
+
+  .book-btn, .gallery-btn {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .btn {
+    font-size: 14px;
+  }
+
+  .contact-right iframe {
+    height: 180px;
+  }
+
+  footer::after {
+    font-size: 0.8rem;
+  }
+}
